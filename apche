@@ -1,0 +1,11 @@
+   11  sudo apt-get install apache2
+   12  sudo apt-get install mysql-server
+   13  sudo apt-get install phpmyadmin
+   14  service apache2 restart
+   15  gedit /etc/apache2/apache2.conf
+   16  service apache2 restart
+   17  gedit /etc/apache2/apache2.conf
+   18  service apache2 restart
+   19  sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
+   20  service apache2 restart
+
